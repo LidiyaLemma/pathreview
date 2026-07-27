@@ -30,3 +30,22 @@ issue.
 **Setup confirmation:** [ ] App runs locally at localhost:5173
 
 **Cohort ledger:** [ ] Issue added to cohort ledger
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [we'll fill this in after you commit]
+
+**Reproduction summary:**
+Ran the repro script from the issue locally. The dashed phone number
+(`555-123-4567`) was correctly redacted to `[REDACTED]`, but the
+parenthesized format (`(555) 123-4567`) was left completely untouched in
+the output. `detect()` also returned zero PII matches (`count=0, types=0`,
+`[]`) for text containing only the parenthesized number, confirming it
+isn't being flagged at all.
+
+**PLAN.md link:** [we'll fill this in once PLAN.md is created]
+
+**Walkthrough video (recommended):** [optional — skip if not recording one]
+
+**Blockers or open questions:**
+[leave blank or add anything you're unsure about]
